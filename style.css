@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    
+}
+.first-page {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./bg_image_netf.png);
+    background-size: cover; /* You can use 'cover' to make the image cover the entire element */
+    background-position: center; /* Center the image horizontally and vertically */
+    height: 700px;
+    width: 100%;
+    border-bottom: 0.5rem solid rgb(35,35,35);
+    
+    
+}
+
+
+.header{
+    display:flex;
+    height: 100px;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+.netf_logo{
+    height: 80px;
+    width: 130px;
+    margin-left: 160px;
+    
+}
+.signin{
+    margin-right: 170px;
+    display: flex;
+    gap: 20px;
+}
+select{
+    height: 35px;
+    width:140px;
+    background-color:transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border:0.5 solid transparent;
+    border-radius: 4px;
+   
+}
+
+
+.signin button{
+    height: 35px;
+    width:85px;
+    background-color: #E50914;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 550;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 190px;
+
+}
+.lighter{
+    font-size: 1.3rem;
+    font-weight:400;
+}
+.darker{
+    font-size:3rem;
+    font-weight: 800;
+}
+.enter{
+    display: flex;
+    gap:10px;
+
+} 
+input{
+height: 55px;
+background-color: transparent;
+border:0.5px solid rgb(148 163 184);
+box-sizing: border-box;
+font-size: 1rem;
+font-weight: 400;
+width:370px;
+border-radius: 5px;
+padding-left: 15px;
+}
+.getstarted{
+    height:55px;
+    width:200px;
+    background-color: #E50914;
+    color:white;
+    font-weight:700px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    
+}
+.second-page img{
+    float: right;
+    height: 450px;
+    margin-right: 150px;
+}
+
+.lower_content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+
+}
+.lower_content p{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+.lower_content span{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.box {
+    height:500px;
+    padding-top: 50px;
+    border-bottom: 0.5rem solid rgb(35,35,35);
+}
+.imgside-right{
+    padding-top: 100px;
+    margin-left:200px;
+}
+.imgside-left{
+    padding-top: 90px;
+    margin-right:180px;
+
+}
+.third-page img{
+    float:left;
+    height: 400px;
+    width: 550x;
+    margin-left:160px;
+    margin-top:70px;
+    margin-right: 40px;
+
+
+}
+.fourth-page img{
+    float:right;
+    height: 450px;
+    margin-right:180px ;
+    margin-top: 20px;
+
+}
+.fifth-page img{
+    float: left;
+    height: 400px;
+    width: 550x;
+    margin-left:160px;
+    margin-top:70px;
+    margin-right: 50px;
+
+
+}
+.faq{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    border-bottom: 0.5rem solid rgb(35,35,35);
+}
+.b{
+    height: 60px;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    background-color: rgb(35,35,35);
+    font-size: 1.5rem;
+
+}
+.last_content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 60px;
+   margin-top: 20px;
+
+}
+.last_segment{
+    padding-top: 70px;
+}
+.header-line{
+    color: rgba(255,255,255,0.7);
+    margin-left: 200px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+   
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+
+}
+.item a{
+    color: rgba(255,255,255,0.7);
+    padding: 8px;
+    font-size: 0.9rem;
+}
+.language{
+    margin-left: 200px;
+}
+.ending{
+    margin-left: 200px;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
+    margin-top: 23px;
+    margin-bottom: 80px;
+
+}
